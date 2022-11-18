@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+html, body{
+    min-height: 100%;
+    font-family: texto;
+}
+
+.logo{
+    padding: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgsection {
+    width: 40%;
+    height: 40%;
+}
+
+.imagesection img {
+    width: 58%;
+    height: 350px;
+    padding-left: 40px;
+    display: flex;
+}
+
+.conten2, .content3, .content4{
+    margin-top: 1rem;
+    margin-right:10px;
+}
+
+.new0{
+    background-color:#00011A;
+    color:  #fff;
+    padding: 2rem;
+    width: 30%;
+    height: 600px;
+    margin-left:750px;
+    top: 145px;
+    position: absolute;
+}
+
+.new0 h1 {
+    color: #E6AB59;
+    margin-bottom: 2rem;
+    font-size: 32px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    width: 50%;
+    margin-left:40px;
+    padding: 2rem;
+}
+
+.text h1{
+    font-size: 64px;
+    width: 300px;
+}
+
+.p{
+    position: absolute;
+    margin-left:300px;
+    width:25%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button{
+    background-color: #fb4926;
+    height: 30px;
+    width: 120px;
+    margin-left: 370px;
+    margin-top: 170px;
+    position: absolute;
+    font-size: 16px;
+    border: 5px;
+    color:#fff;
+}
+
+.content-1 {
+    display: flex;
+    height: 10rem;
+    margin-bottom: 1rem;
+    position: relative;
+    justify-content:space-around;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.content-2 {
+    display: flex;
+    height: 10rem;
+    margin-bottom: 1rem;
+    position: relative;
+    justify-content:space-around;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: -180px;
+}
+
+.content-3 {
+    display: flex;
+    height: 10rem;
+    margin-bottom: 1rem;
+    position: relative;
+    justify-content:space-around;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: -170px;
+}
+
+.imgContent img {
+    height: 80%;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+}
+
+@media screen and (min-width: 680px) {
+    main {
+        display: flex;
+    }
+
+    header {
+        display: flex;
+    }
+    
+    .menu {
+        display: block;
+        display: flex;
+        align-items: center;
+        color: #a2a2a3;
+    }
+
+    .menu ul {
+        display: flex;
+        list-style: none;
+        margin-left: 450px;
+    }
+    
+    .menu li {
+        margin-left: 1rem;
+        padding: 1rem;
+    }
+        
+    .textSection {
+        display: flex;
+        margin-top: 1rem;
+    }
+        
+    .textSection h1, .textSection div {
+        width: 50%;
+    }
+        
+    .textSection h1 {
+        font-size: 3vw;
+    }
+        
+    .sectionDesktop .section {
+        width: 70%;
+    }
+
+    .content-3 {
+        width: 30%;
+    }
+}
